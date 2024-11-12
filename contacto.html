@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sabores</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="shortcut icon" href="./IMG/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <img src="./IMG/logo-sabores.svg" class="logo drop" alt="Logo sabores" srcset="">
+      <img src="./IMG/recortehambsOl.png" class="drop hambu" alt="Hamburguesas">
+    </header>
+      <nav>
+        <a class="item" href="index.html" >Inicio</a>
+        <div class="item">
+          Productos
+          <div class="dropdown">
+            <div>
+              <a href="index.html#Hamburguesas">
+                Hamburguesas
+              </a>
+              <a href="index.html#Pizzas">
+                Pizzas
+              </a>
+              <a href="index.html#Sandwiches">
+                Sandwiches
+              </a>
+              <a href="index.html#Ensaladas">
+                Ensaladas
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="resenias.html" class="item">Reseñas</a>
+        <a class="item">Contacto</a>
+        <div class="underline"></div>
+      </nav>
+    <main>
+        <div class="contenedor-contacto" id="contacto">
+            <div class="contact-form">
+                <h2>Contactanos</h2>
+                <form action="https://formspree.io/f/mldengjz" method="POST">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="mapa" id="mapa">
+                <h2>Ubicacion</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.787506583732!2d-58.556717495812876!3d-34.91642039609521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd9b8a9f94d77%3A0x921467ae013a48e7!2sAlcaidia%20Departamental%20Ezeiza!5e0!3m2!1ses-419!2sar!4v1731266216316!5m2!1ses-419!2sar" 
+                width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>Menu</h3>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#contacto">Formulario de contacto</a></li>
+            <li><a href="#mapa">Unicación</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Productos</h3>
+          <ul>
+            <li><a href="index.html#Hamburguesas">Hamburguesas</a></li>
+            <li><a href="index.html#Pizzas">Pizzas</a></li>
+            <li><a href="index.html#Sandwiches">Sandwiches</a></li>
+            <li><a href="index.html#Ensaladas">Ensaladas</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contacto</h3>
+          <ul>
+            <li><a href="mailto:juliohernanc@gmail.com" target="_blank">Correo Electrónico</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=541140472677&text=%C2%A1Hola!%20Somos%20Sabores%2C%20hace%20tu%20pedido." target="_blank">Whatsapp</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Síguenos</h3>
+          <ul>
+            <li><a href="https://www.facebook.com/" target="_blank"><img class="logo" src="IMG/facebook-svgrepo-com.svg" alt="Logo de Facebook"></a></li>
+            <li><a href="https://www.instagram.com/?hl=es-la" target="_blank"><img class="logo" src="IMG/instagram-svgrepo-com.svg" alt="Logo de Instagram"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Julio Hernán Córdoba.</p>
+      </div>
+    </footer>
+  </body>
+</html>

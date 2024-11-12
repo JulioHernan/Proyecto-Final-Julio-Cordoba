@@ -1,0 +1,500 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #ffa500;
+  --color-secondary: #f24f04;
+  --color-base: #ff8339;
+}
+
+body {
+  font-family: "Euclid Circular A", "Poppins";
+  background: #ffffff;
+  color: #ffffff;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+header {
+  display: flex;
+  background-image: url(/IMG/texture-1943836_1920.jpg);
+  background-size: contain;
+  justify-content: space-evenly;
+}
+
+.logo {
+  width: 25%;
+}
+.hamburg {
+  width: 60%; 
+}
+
+nav {
+  position: relative;
+  background: var(--color-base);
+  font-weight: 400;
+  font-size: 0;
+  display: flex;
+  padding: 0;
+  width: 100%;
+}
+
+nav .item {
+  font-size: 0.7rem;
+  display: inline-block;
+  position: relative;
+  padding: 0 20px;
+  cursor: pointer;
+  z-index: 5;
+  min-width: 25%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+nav a {
+ text-decoration: none;
+ color: #fff;
+}
+
+.dropdown {
+  overflow: hidden;
+  list-style: none;
+  position: absolute;
+  padding: 0;
+  width: 100%;
+  left: 0;
+  top: 62px;
+}
+.dropdown > div {
+  transform: translate(0, -100%);
+  transition: all 0.5s 0.1s;
+  position: relative;
+}
+
+.dropdown a {
+  display: block;
+  padding: 0;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background: var(--color-primary)
+}
+
+.dropdown a:hover {
+  background: #0059ff;
+}
+
+.underline {
+  height: 6px;
+  background: gold;
+  position: absolute;
+  bottom: 0;
+  width: 25%;
+  z-index: 2;
+  pointer-events: none;
+  transition: 0.35s;
+}
+
+nav .item:hover > .dropdown > div {
+  transform: translate(0);
+}
+
+nav .item:nth-child(1):hover ~ .underline {
+  transform: translate(0, 0);
+}
+
+nav .item:nth-child(2):hover ~ .underline {
+  transform: translate(100%, 0);
+}
+
+nav .item:nth-child(3):hover ~ .underline {
+  transform: translate(200%, 0);
+}
+
+nav .item:nth-child(4):hover ~ .underline {
+  transform: translate(300%, 0);
+}
+main {
+  color: #000;
+}
+main h1, h2, h3, .precio {
+  color: var(--color-secondary);
+  font-family: "Passion One", "Serif";
+}
+.drop {
+  filter: drop-shadow(5px 5px 10px black);
+  transition: transform 0.4s;
+}
+
+.hambu:hover {
+  transform: translateY(-25px) scale(1.05);
+  
+}
+.logo:hover {
+  transform: rotate(15deg) scale(1.2);
+}
+
+.productos {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  background: linear-gradient(to bottom, #f9f871 0%, #ffc75f 50%, #ff9671 100%);
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: transform 0.3s;
+}
+.arrow:hover {
+  transform: translateY(-10px) scale(0.8);
+  filter: drop-shadow(2px 2px 4px var(--color-primary));
+}
+a>img {
+  width: 1rem;
+  
+}
+.card {
+  background-color: #fff;
+  border-top: 15px solid var(--color-primary);
+  border-left: 1px rgb(164, 164, 164) solid;
+  border-right: 1px rgb(164, 164, 164) solid;
+  border-bottom: 5px var(--color-base) solid;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 320px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;  
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.07);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0 , 0.2);
+}
+.card:hover img {
+  transform: scale(1.15) rotate(-2deg);
+}
+.precio {
+  font-weight: bold;
+  color: rgb(58, 57, 57);
+  font-size: 1.5rem;
+}
+
+.btn {
+  background-color: var(--color-secondary);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 5%;
+  border-radius: 10px;
+}
+footer {
+  margin-top: 1rem;
+  background-color: #333;
+  color: #fff;
+  padding: 40px;
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  color: #ccc;
+}
+
+.footer-bottom {
+  background-color: #222;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 15%;
+  }
+  .hambu {
+    width: 40%;
+  }
+  .hambu:hover {
+    transform: translateY(-10px) ;
+    
+  }
+  nav .item {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  a>img {
+    width: 2rem;
+  }
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact-form, .mapa  {
+    width: 90%;
+  }
+  .reviews-container {
+    grid-template-columns: 1fr;
+  }
+ 
+}
+
+/* El código para el formulario */
+.contact-form,.mapa {
+  margin: 10px auto;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.mapa {
+  padding-bottom: 80px;
+}
+
+.contact-form h2,.mapa {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.mapa h2 {
+  padding-bottom: 40px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #6c63ff;
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: var(--color-secondary);
+}
+.contenedor-contacto {
+  margin-top: 1rem                                            ;
+  display: flex;
+  gap: 2rem;;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+/*Reseñas */
+.reviews-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+  margin-top: 2rem;
+  background: linear-gradient(to bottom, #f9f871 0%, #ffc75f 50%, #ff9671 100%);
+}
+
+.review-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.review-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.review-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.review-card blockquote {
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+  margin-top: 10px;
+}
+/*Media queries */
+@media only screen and (max-width: 768px) {
+  .reviews-container {
+    grid-template-columns: 1fr;
+}
+
+}
+  
+@media only screen and (min-width: 768px) {
+  nav {
+    width: 100%;
+  }
+  .logo {
+    width: 15%;
+  }
+  .hambu {
+    width: 35%;
+  }
+  nav .item {
+    font-size: 1.15rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+ 
+    a>img {
+    width: 2.2rem;
+  }
+  .contenedor-contacto {
+    width: 90vw;
+  }
+  .reviews-container {
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+@media only screen and (min-width: 992px) {
+  nav {
+    width: 90%;
+  }
+  nav .item {
+    font-size: 1rem;
+  }
+ 
+ .logo {
+    width: 15%;
+  }
+  .hambu {
+    width: 40%; 
+  }
+  .contenedor-contacto {
+    width: 80vw;
+  }
+  .reviews-container {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+}
+@media only screen and (min-width: 1200px) {
+  nav {
+    width: 80%;
+  }
+  nav .item {
+    font-size: 1.25rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  a>img {
+  width: 2.5rem;
+  }
+  .logo {
+    width: 12%;
+  }
+  .hambu {
+    width: 30%; 
+  }
+  .mapa {
+    width: 50%;
+  }
+  .contact-form {
+    width: 40%
+  }
+  .contenedor-contacto {
+    width: 70vw;
+  }
+}
