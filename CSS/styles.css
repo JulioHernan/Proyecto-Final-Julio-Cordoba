@@ -138,7 +138,7 @@ main h1, h2, h3, .precio {
 .productos {
   display:flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: stretch;
   background: linear-gradient(to bottom, #f9f871 0%, #ffc75f 50%, #ff9671 100%);
   gap: 0.5rem;
