@@ -259,42 +259,6 @@ footer {
 .footer-bottom p {
   margin: 0;
 }
-
-@media only screen and (max-width: 768px) {
-  .logo {
-    width: 15%;
-  }
-  .hambu {
-    width: 40%;
-  }
-  .hambu:hover {
-    transform: translateY(-10px) ;
-    
-  }
-  nav .item {
-    font-size: 1rem;
-  }
-  h1 {
-    font-size: 2rem;
-  }
-  h3 {
-    font-size: 1.5rem;
-  }
-  a>img {
-    width: 2rem;
-  }
-  .footer-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .contact-form, .mapa  {
-    width: 90%;
-  }
-  .reviews-container {
-    grid-template-columns: 1fr;
-  }
- 
-}
-
 /* El código para el formulario */
 .contact-form,.mapa {
   margin: 10px auto;
@@ -410,10 +374,38 @@ footer {
 }
 /*Media queries */
 @media only screen and (max-width: 768px) {
+  .logo {
+    width: 15%;
+  }
+  .hambu {
+    width: 40%;
+  }
+  .hambu:hover {
+    transform: translateY(-10px) ;
+    
+  }
+  nav .item {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  a>img {
+    width: 2rem;
+  }
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact-form, .mapa  {
+    width: 90%;
+  }
   .reviews-container {
     grid-template-columns: 1fr;
-}
-
+  }
+ 
 }
   
 @media only screen and (min-width: 768px) {
