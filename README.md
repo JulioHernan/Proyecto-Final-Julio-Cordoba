@@ -13,8 +13,8 @@
 - CSS3 (Flexbox y Grid)
 
 ## Estructura del proyecto
-- La carpeta `CSS` contiene los archivos CSS necesarios para el diseño del sitio web.
-- La carpeta `IMG` almacena las imágenes utilizadas en el proyecto.
+- La carpeta `css` contiene los archivos CSS necesarios para el diseño del sitio web.
+- La carpeta `img` almacena las imágenes utilizadas en el proyecto.
 
 ## Cómo ejecutar el proyecto
 1. Clona o descarga el repositorio en tu máquina local.
