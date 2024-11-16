@@ -383,7 +383,7 @@ footer {
     width: 40%;
   }
   nav .item {
-    font-size: 1rem;
+    font-size: .75rem;
   }
   h1 {
     font-size: 2rem;
@@ -443,7 +443,7 @@ footer {
     width: 90%;
   }
   nav .item {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .logo {
     width: 15%;
@@ -455,6 +455,6 @@ footer {
     width: 80vw;
   }
   .reviews-container {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
