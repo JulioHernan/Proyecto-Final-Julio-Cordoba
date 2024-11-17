@@ -383,7 +383,7 @@ footer {
     width: 40%;
   }
   nav .item {
-    font-size: .75rem;
+    font-size: .8rem;
   }
   h1 {
     font-size: 2rem;
@@ -391,9 +391,7 @@ footer {
   h3 {
     font-size: 1.5rem;
   }
-  .redes {
-    width: 1.75rem;
-  }
+  
   .footer-container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -403,6 +401,9 @@ footer {
   }
   .reviews-container {
     grid-template-columns: 1fr;
+  }
+  .redes {
+    width: 1.75rem;
   }
 }
 
@@ -426,14 +427,15 @@ footer {
   h3 {
     font-size: 2rem;
   }
-  .redes {
-    width: 1.4rem;
-  }
+  
   .contenedor-contacto {
     width: 90vw;
   }
   .reviews-container {
     grid-template-columns: 1fr 1fr;
+  }
+  .redes {
+    width: 1.6rem;
   }
 }
 
