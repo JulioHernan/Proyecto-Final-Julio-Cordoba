@@ -392,7 +392,7 @@ footer {
     font-size: 1.5rem;
   }
   a > img {
-    width: 2rem;
+    width: 1.75rem;
   }
   .footer-container {
     grid-template-columns: repeat(2, 1fr);
@@ -427,7 +427,7 @@ footer {
     font-size: 2rem;
   }
   a > img {
-    width: 2.2rem;
+    width: 1.50rem;
   }
   .contenedor-contacto {
     width: 90vw;
@@ -456,5 +456,8 @@ footer {
   }
   .reviews-container {
     grid-template-columns: repeat(3, 1fr);
+  }
+  a > img {
+    width: 1.1rem;
   }
 }
