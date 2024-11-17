@@ -391,7 +391,7 @@ footer {
   h3 {
     font-size: 1.5rem;
   }
-  a > img {
+  .redes {
     width: 1.75rem;
   }
   .footer-container {
@@ -426,8 +426,8 @@ footer {
   h3 {
     font-size: 2rem;
   }
-  a > img {
-    width: 1.50rem;
+  .redes {
+    width: 1.4rem;
   }
   .contenedor-contacto {
     width: 90vw;
@@ -457,7 +457,7 @@ footer {
   .reviews-container {
     grid-template-columns: repeat(3, 1fr);
   }
-  a > img {
-    width: 1.1rem;
+  .redes {
+    width: 1.5rem;
   }
 }
