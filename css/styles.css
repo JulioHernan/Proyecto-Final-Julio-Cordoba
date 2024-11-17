@@ -401,6 +401,7 @@ footer {
   }
   .reviews-container {
     grid-template-columns: 1fr;
+    padding: 30px;
   }
   .redes {
     width: 1.75rem;
