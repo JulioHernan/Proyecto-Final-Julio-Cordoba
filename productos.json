@@ -1,0 +1,106 @@
+{
+    "Hamburguesas": [
+      {
+        "nombre": "Completa",
+        "descripcion": "Lechuga, tomate, queso cheddar, cebolla",
+        "precio": 16.99,
+        "imagen": "./img/hamburguesa-completa.jpg"
+      },
+      {
+        "nombre": "Especial",
+        "descripcion": "Lechuga, tomate, queso cheddar, cebolla, bacon",
+        "precio": 18.99,
+        "imagen": "./img/hamburguesa-especial.jpg"
+      },
+      {
+        "nombre": "Chesseburguer",
+        "descripcion": "Queso cheddar y papas fritas de regalo",
+        "precio": 14.99,
+        "imagen": "./img/cheeseburguer.jpg"
+      },
+      {
+        "nombre": "Doble Cheese",
+        "descripcion": "Doble queso cheddar, doble carne y bacon",
+        "precio": 19.99,
+        "imagen": "./img/cheese-doble.jpg"
+      }
+    ],
+    "Pizzas": [
+      {
+        "nombre": "Mozzarela",
+        "descripcion": "El clásico sabor de la pizza con abundante queso",
+        "precio": 22.99,
+        "imagen": "./img/pizza-rectangulo.jpg"
+      },
+      {
+        "nombre": "Calabresa",
+        "descripcion": "Deliciosa pizza con longanizza de primera calidad",
+        "precio": 24.99,
+        "imagen": "./img/calabresa-728x457.jpg"
+      },
+      {
+        "nombre": "Fugazzeta",
+        "descripcion": "Deliciosa con una buena ración de queso",
+        "precio": 20.99,
+        "imagen": "./img/fugazzeta.jpg"
+      },
+      {
+        "nombre": "Napolitana",
+        "descripcion": "Sabrosa pizza napolitana con tomates, jamón y queso",
+        "precio": 25.99,
+        "imagen": "./img/pnapolitanaconjamon.jpg"
+      }
+    ],
+    "Sandwiches": [
+      {
+        "nombre": "Sandwich",
+        "descripcion": "De jamón y queso o salame y queso",
+        "precio": 8.99,
+        "imagen": "./img/sandwiches.jpg"
+      },
+      {
+        "nombre": "Choripan",
+        "descripcion": "Clásico choripan con chimichurri o salsa criolla",
+        "precio": 10.99,
+        "imagen": "./img/chori.jpg"
+      },
+      {
+        "nombre": "Milanesa",
+        "descripcion": "De carne de res, papas fritas, lechuga y tomate",
+        "precio": 13.99,
+        "imagen": "./img/mila.jpg"
+      },
+      {
+        "nombre": "Milanesa de Pollo",
+        "descripcion": "De carne de pollo, papas fritas, lechuga, tomate y cebolla",
+        "precio": 12.99,
+        "imagen": "./img/mila-pollo.jpg"
+      }
+    ],
+    "Ensaladas": [
+      {
+        "nombre": "Ensalada Rusa",
+        "descripcion": "Con papas, zanahoria, arbejas y mayonesa",
+        "precio": 5.99,
+        "imagen": "./img/ensalada-rusa.jpg"
+      },
+      {
+        "nombre": "Lechuga y Tomate",
+        "descripcion": "Lechuga, tomate, cebolla, aceite y jugo de limón",
+        "precio": 5.99,
+        "imagen": "./img/ensalada-de-lechuga-y-tomate-foto-cerca.webp"
+      },
+      {
+        "nombre": "Ensalada César",
+        "descripcion": "De lechuga, aderezo César, pollo y otros aderezos",
+        "precio": 7.99,
+        "imagen": "./img/Ensalada-Cesar.jpg.jpeg"
+      },
+      {
+        "nombre": "Ensalada Griega",
+        "descripcion": "Con tomates, la cebolla, los pepinos y morrón",
+        "precio": 6.99,
+        "imagen": "./img/ensalada-griega.jpg"
+      }
+    ]
+  }
