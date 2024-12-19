@@ -3,6 +3,8 @@
 ## Descripción
 "Los Sabores" es un sitio web de comidas rápidas que ofrece una variedad de deliciosas opciones a los clientes. El objetivo del sitio es proporcionar una experiencia de usuario agradable y facilitar el proceso de pedido y contacto con la empresa.
 
+![imagen pagina](./img/cap_sabores.png)
+
 ## Características principales
 1. **Página de Inicio (index.html)**: Muestra una sección de productos utilizando CSS Flexbox, donde los usuarios pueden ver las diferentes opciones de comidas rápidas disponibles.
 2. **Página de Contacto (contacto.html)**: Incluye un formulario de contacto que permite a los usuarios enviar sus consultas o comentarios, y también muestra la ubicación de la empresa.
@@ -11,10 +13,12 @@
 ## Tecnologías utilizadas
 - HTML5
 - CSS3 (Flexbox y Grid)
+- JavaScript
 
 ## Estructura del proyecto
 - La carpeta `css` contiene los archivos CSS necesarios para el diseño del sitio web.
 - La carpeta `img` almacena las imágenes utilizadas en el proyecto.
+- La carpeta `js` contiene los archivos JavaScript.
 
 ## Cómo ejecutar el proyecto
 1. Clona o descarga el repositorio en tu máquina local.
