@@ -1,7 +1,7 @@
 //consumir los fatos desde una api, creeun archivo JSON
 async function cargarProductos() {
   try {
-      const response = await fetch('../productos.json');
+      const response = await fetch('./productos.json');
       if (!response.ok) {
           throw new Error(`¡Error HTTP! status: ${response.status}`);
       }
