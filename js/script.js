@@ -1,4 +1,4 @@
-//consumir los fatos desde una api, creeun archivo JSON
+//consumir los datos desde una api, creeun archivo JSON
 async function cargarProductos() {
   try {
       const response = await fetch('./productos.json');
@@ -21,7 +21,7 @@ async function cargarProductos() {
               </a>
             </div>
           `;
-
+// Dibuja las tarjetas
           data[categoria].forEach(producto => {
               const cardHTML = `
                   <div class="card">
@@ -45,6 +45,7 @@ async function cargarProductos() {
 }
 cargarProductos();
 
+//Carrito de Compras
 let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 
 // Actualiza el contador del carrito
