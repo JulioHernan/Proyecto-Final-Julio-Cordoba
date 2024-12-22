@@ -19,6 +19,9 @@
     <header>
       <img src="./img/logo-sabores.svg" class="logo drop" alt="Logo sabores" srcset="">
       <img src="./img/recortehambsOl.png" class="drop hambu" alt="Hamburguesas">
+      <div id="cart-container">
+        <button id="cart-button"><img src="./img/carrito.svg" class="carrito_logo" alt="" srcset=""> <span id="cart-count">0</span></button>
+      </div>
     </header>
       <nav>
         <a class="item">Inicio</a>
@@ -46,6 +49,14 @@
         <div class="underline"></div>
       </nav>
     <main>
+      <section id="cart" class="productos">
+        <h2>Carrito de Compras</h2>
+        <div id="cart-items"></div>
+        <div id="cart-total">
+          <p>Total: $<span id="total-price">0.00</span></p>
+          <button id="clear-cart" class="btn">Vaciar Carrito</button>
+        </div>
+      </section>
       <section id="Hamburguesas" class="productos"></section>
       <section id="Pizzas" class="productos"></section>
       <section id="Sandwiches" class="productos"></section>

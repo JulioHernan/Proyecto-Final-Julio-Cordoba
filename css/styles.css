@@ -209,6 +209,10 @@ a>img {
   margin-top: 5%;
   border-radius: 10px;
 }
+.btn:hover {
+  background-color: var(--color-primary);
+  color: black;
+}
 footer {
   margin-top: 1rem;
   background-color: #333;
@@ -371,6 +375,89 @@ footer {
   font-style: italic;
   margin-top: 10px;
 }
+#cart-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+/*carrito*/
+#cart-button {
+  background-color: var(--color-secondary);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#cart-count {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 8px;
+  font-size: 0.8rem;
+  margin-left: 5px;
+}
+
+#cart {
+  display: none;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+#cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.carrito_logo {
+  width: 1.2rem;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px solid #fff; 
+  padding: 10px 0;
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.cart-item h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.cart-item .quantity {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cart-item .quantity button {
+  background-color: var(--color-secondary);
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#cart-total {
+  margin-top: 20px;
+  text-align: right;
+} 
+
 /*Media queries */
 
 @media only screen and (max-width: 768px) {

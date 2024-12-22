@@ -9,11 +9,11 @@
 1. **Página de Inicio (index.html)**: Muestra una sección de productos utilizando CSS Flexbox, donde los usuarios pueden ver las diferentes opciones de comidas rápidas disponibles.
 2. **Página de Contacto (contacto.html)**: Incluye un formulario de contacto que permite a los usuarios enviar sus consultas o comentarios, y también muestra la ubicación de la empresa.
 3. **Página de Reseñas (resenias.html)**: Presenta las reseñas de los clientes en una sección organizada utilizando CSS Grid.
-
-## Tecnologías utilizadas
+4. **Se manipula el DOM mediante JS:**: Con funciones dde validación de formulario, cargar tarjetas y para el carrito de compras.
 - HTML5
 - CSS3 (Flexbox y Grid)
 - JavaScript
+- LocalStorage
 
 ## Estructura del proyecto
 - La carpeta `css` contiene los archivos CSS necesarios para el diseño del sitio web.
